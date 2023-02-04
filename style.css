@@ -10,7 +10,7 @@ ul {
     margin: 5px;
 } 
 li {
-    font-family:  Source Sans Pro;
+    font-family:  'Source Sans Pro', sans-serif;
     display: inline-block;
     padding: 5px;
 }
@@ -42,7 +42,7 @@ a:active {
 }
 body {
     background-color: #eee;
-    font-family:  Source Sans Pro;
+    font-family:  'Source Sans Pro', sans-serif;
 }
 main {
     border-bottom: 1px solid #eee;
@@ -53,7 +53,7 @@ p {
 }
 h1 {
     font-size: 3em;
-    font-family: Abril Fatface;
+    font-family: 'Abril Fatface' sans-serif;
     text-align: center;
 }
 h2, h3, h4 {

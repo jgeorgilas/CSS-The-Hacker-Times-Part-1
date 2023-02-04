@@ -3,32 +3,36 @@
 nav {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
-    
+    color: #eee;
+}
+ul {   
+    padding-left: 0px;
+    margin: 16px;
+} 
+li {
+    font-family:  Source Sans Pro;
+    display: inline-block;
+    padding: 5px;
 }
 a:link {
     text-decoration: none;
     color: gray;
+}
+a:visited {
+    color: gray;
+    }
+a:hover {
+    color: #eee;
+  }
+a:active {
+    color: black;
 }
 .date {
     font-style: italic;
     color: gray;
     font-size: 1em;
 }
-
-Body font: Source Sans Pro
-Header font: Abril Fatface
-Article title font: Roboto Slab
-
-ul {
-    padding-left: 0px;
-    margin: 16px;
-}
-li {
-    font-family:  Source Sans Pro;
-    display: inline-block;
-    padding: 5px;
-}
-.newspaper-container{
+.newspaper-container {
     background-color: #fff;
     width: 700px;
     margin: auto;  
@@ -46,7 +50,7 @@ main {
 p {
     text-align: justify;
 }
-h1{
+h1 {
     font-size: 3em;
     font-family: Abril Fatface;
     text-align: center;

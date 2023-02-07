@@ -4,6 +4,10 @@ nav {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
     color: #eee;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
 }
 ul {   
     padding-left: 0px;
@@ -71,6 +75,10 @@ img {
 }
 .more-articles {
    display: flex;
+}
+.more-articles2 {
+    display: flex;
+
 }
 section {
     margin: 2em;
